@@ -1,0 +1,7 @@
+[
+  {
+    "name": "palmetto-echo",
+    "adapter": "palmetto-pubnub",
+    "config": "pubnub"
+  }
+]
