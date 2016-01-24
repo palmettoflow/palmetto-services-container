@@ -1,10 +1,12 @@
 {
-  "name": "palmetto-service-container",
+  "name": "pf-services-container",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2015 src -d lib",
+    "start": "node lib/index.js"
   },
   "keywords": [],
   "author": "Tom",
